@@ -5,5 +5,8 @@ test('renders learn react link', () => {
   render(<App />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
-  expect('hello').toEqual('hello');
 });
+
+test('automatically runs new tests', () => {
+  expect('hello').toEqual('hello');
+})
