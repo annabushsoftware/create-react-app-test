@@ -1,3 +1,11 @@
+$theme-colors: (
+    "primary": lightblue,
+    "info": green,
+    "danger": red
+);
+
+@import "~bootstrap/scss/bootstrap";
+
 @import 'colors';
 
 .App-header {

@@ -2,6 +2,7 @@ import logo from '../logo.svg';
 import '../styles/App.css';
 import '../styles/TestApp.scss';
 import * as moment from 'moment';
+import Button from 'react-bootstrap/Button';
 
 function App() {
   momentPlayground();
@@ -13,7 +14,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
+        <a 
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
@@ -21,6 +22,7 @@ function App() {
         >
           Learn React
         </a>
+        <Button>Bootstrap Button</Button>
       </header>
     </div>
   );
